@@ -1,0 +1,363 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: 'PT Sans', sans-serif;
+}
+
+#social {
+    background-color: black;
+    color: white;
+    height: 55px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    font-size: 18px;
+    text-align: center;
+    padding: 15px;
+}
+
+#social>i {
+    margin-right: 15px;
+    float: right;
+}
+
+#social>i:hover {
+    opacity: 0.3;
+}
+
+#footer {
+    font-size: 13px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+#container {
+    width: 80%;
+    margin: auto;
+    height: auto;
+}
+
+header {
+    font-family: 'Hanalei Fill', cursive;
+    width: 100%;
+    height: 140px;
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    position: relative;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+#soxial:hover {
+    opacity: 0.8;
+}
+
+#headerResim {
+    padding-top: 0.35%;
+    width: 100%;
+    height: 140px;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+#centered {
+    font-family: 'Hanalei Fill', cursive;
+    font-size: 40px;
+    color: rgb(194, 190, 190);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+section {
+    width: 100%;
+    height: auto;
+    background-color: #d7d9d9;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+    margin-top: 15px;
+    overflow: auto;
+    background-color: #c0c0c0;
+}
+
+nav {
+    width: 20%;
+    float: left;
+    margin-top: 10px;
+    height: auto;
+    background-color: #c0c0c0;
+}
+
+nav ul {
+    width: auto;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+nav li a {
+    height: 50px;
+    line-height: 50px;
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid black;
+    padding-left: 15px;
+    display: block;
+}
+
+nav li a:hover {
+    color: white;
+    background-color: #adadad;
+}
+
+i {
+    margin-right: 10px;
+}
+
+main {
+    float: left;
+    height: auto;
+    width: 80%;
+    padding: 15px;
+}
+
+.icerik {
+    width: 48%;
+    height: auto;
+    display: inline-block;
+    margin-right: 15px;
+    border-radius: 11px;
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.menuresim {
+    width: 100%;
+    border-top-right-radius: 11px;
+    border-top-left-radius: 11px;
+    transition: opacity 1s;
+}
+
+.menuresim:hover {
+    opacity: 0.8;
+}
+
+h4 {
+    margin: 11px;
+    color: dimgray;
+}
+
+.iceriktext {
+    margin: 11px;
+    color: dimgray;
+}
+
+.keepread:link {
+    text-decoration: none;
+    display: block;
+    width: 150px;
+    height: 45px;
+    padding: 11px 21px;
+    color: white;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: dimgray;
+}
+
+.keepread:hover {
+    opacity: 0.7;
+}
+
+h2 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 50px;
+    line-height: 50px;
+    margin: 0px 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+}
+
+#bizkimiz {
+    background-color: #383838;
+}
+
+#bizkimizrsm {
+    width: 350px;
+    height: 300px;
+    float: left;
+    border-radius: 10px;
+    margin: 20px;
+    transition: opacity 1s;
+}
+
+#bizkimizrsm:hover {
+    opacity: 0.85;
+}
+
+.bizkimizp {
+    margin-right: 35px;
+    font-size: 15px;
+    font-family: Cambria;
+    text-indent: 30px;
+    color: white;
+}
+
+.yaptiklarimizBox {
+    width: 30%;
+    height: 300p;
+    display: inline-block;
+    border-radius: 11px;
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+    margin: 10px;
+}
+
+.yaptiklarimizResim {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: -10px;
+    opacity: 0.9;
+    transition: opacity 1s;
+}
+
+.yaptiklarimizResim:hover {
+    opacity: 2;
+}
+
+.yaptiklarimizHeader {
+    text-align: center;
+    background-color: #909090;
+    display: inline-block;
+    margin-top: 0px;
+    height: 45px;
+    line-height: 45px;
+    width: 100%;
+}
+
+.yaptiklarimizP {
+    text-align: center;
+}
+
+.galeriResim {
+    margin: 10px;
+    width: 21%;
+    border-radius: 5px;
+    height: 150px;
+    transition: 0s;
+}
+
+.galeriResim:hover {
+    border: 4px solid grey
+}
+
+iframe {
+    width: 98%;
+    height: 350px;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+    margin-left: 10px;
+}
+
+#iletisimSection {
+    width: 98%;
+    height: auto;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+.iletisimForm {
+    width: 48%;
+    float: left;
+    height: 380px;
+    border: 1px solid #d8d8d8;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.col25 {
+    width: 25%;
+    float: left;
+    margin-top: 6px;
+}
+
+.col75 {
+    width: 75%;
+    float: left;
+    margin-top: 6px;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=text],
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cecece;
+    border-radius: 4px;
+}
+
+.row {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+#gonderButon {
+    background-color: red;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    float: right;
+    opacity: 0.5;
+}
+
+#gonderButon:hover {
+    opacity: 0.7;
+}
+
+.iletisimAdres {
+    width: 48%;
+    float: left;
+    height: 380px;
+    border: 1px solid #d8d8d8;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.span1 {
+    display: block;
+    font-family: Calibri;
+    margin: 10px;
+    text-align: center;
+    font-size: 20px;
+}
